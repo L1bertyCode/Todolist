@@ -3,8 +3,8 @@ import "./index.css";
 import AppWithReducers from "./app/AppWithReducers";
 import App from "./app/App";
 import { Provider } from "react-redux";
-import { store } from "./state/store";
 import AppWithRedux from "./app/AppWithRedux";
+import { store } from "../state/store";
 
 const root = createRoot(document.getElementById("root"));
 root.render(

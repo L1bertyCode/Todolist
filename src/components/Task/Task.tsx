@@ -1,6 +1,6 @@
-import { ChangeEvent, memo, useCallback } from "react";
+import { ChangeEvent, memo } from "react";
 import { EditableSpan } from "../EditableSpan/EditableSpan";
-import { FilterValuesType, TaskType } from "../../app/App";
+import { TaskType } from "../../app/App";
 import {
  Checkbox,
  IconButton,
