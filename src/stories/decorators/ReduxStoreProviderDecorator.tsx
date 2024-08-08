@@ -8,7 +8,7 @@ import {
 import { v1 } from "uuid";
 import { tasksReducer } from "../../model/tasks-reducer";
 import { todolistsReducer } from "../../model/todolists-reducer";
-import { AppRootStateType } from "../../../state/store";
+import { AppRootStateType } from "../../state/store";
 
 const rootReducer = combineReducers({
  tasks: tasksReducer,
